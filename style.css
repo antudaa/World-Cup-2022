@@ -1,0 +1,524 @@
+/*----------------
+ Common CSS Styles
+ ----------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Cormorant+SC:wght@300;500&family=Ibarra+Real+Nova&family=Playfair+Display&family=Source+Serif+Pro:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+/*------------------ 
+ Header Section Style
+ --------------------  */
+.header-section {
+    background-color: aliceblue;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section {
+    width: 85%;
+    height: 85vh;
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.first-section h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 70px;
+    padding-bottom: 30px;
+}
+
+.first-section p {
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.first-sec-child-1 {
+    padding: 80px 50px 150px 100px;
+}
+
+.first-sec-child-1 button {
+    background-color: orangered;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.first-sec-child-1 button:hover {
+    background-color: aliceblue;
+    color: #0d233a;
+    font-weight: bold;
+    border: 1px solid orangered;
+}
+
+/*------------------------------------------ 
+ Making Responsive For Mobile Max-Width 767px
+ --------------------------------------------  */
+
+@media only screen and (max-width: 767px) {
+    .header-section {
+        height: 125vh;
+    }
+
+    .first-section {
+        width: 90%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .first-section h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    .first-section p {
+        font-size: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .first-sec-child-1 {
+        padding: 50px 30px 60px 30px;
+    }
+
+    .go-live-btn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*------------------------------------------ 
+ Making Responsive For Tablet Max-Width 768-1180px
+ --------------------------------------------  */
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+    .header-section {
+        height: 70vh;
+    }
+
+    .first-section {
+        width: 90%;
+        height: 60vh;
+    }
+
+    .first-section h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .first-section p {
+        font-size: 14px;
+    }
+
+    .first-sec-child-1 {
+        padding: 80px 40px 100px 80px;
+    }
+
+    .first-sec-child-1 button {
+        font-size: 16px;
+    }
+}
+
+/*--------------- 
+Section Two Style
+-----------------  */
+
+.section-two {
+    background-color: aliceblue;
+    width: 100%;
+    height: 120vh;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 65px;
+}
+
+.side-bar button {
+    width: 70%;
+    margin: 6px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.side-bar button:hover {
+    background-color: red;
+    color: white;
+}
+
+.blog {
+    background-color: red;
+    color: white;
+}
+
+.section-two-flex {
+    display: flex;
+    width: 99.5%;
+    justify-content: center;
+}
+
+/*--------- 
+Grid Layout
+-----------  */
+
+.match {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.match button {
+    background-color: white;
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.match button:hover {
+    box-shadow: 1px 1px 1px gray;
+    background-color: red;
+    color: white;
+    
+}
+
+.match h3 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.match-grid-layout {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+}
+
+.time-msg {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.time-msg h5 {
+    font-size: 14px;
+}
+
+.time-msg img {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.time-hour {
+    padding-right: 30px;
+}
+
+.view-all-button {
+    display: none;
+}
+
+.view-all-magic-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.grid {
+    display: flex;
+}
+
+/*--------------------------------------------------
+ Making Responsive For Mobile Device Max Width 767px
+ ---------------------------------------------------  */
+
+@media only screen and (max-width: 767px) {
+    .match {
+        width: 300px;
+        height: 350px;
+    }
+
+    .section-two {
+        height: 340vh;
+    }
+
+    .side-bar {
+        flex-direction: column;
+        width: 100%;
+        height: 30vh;
+        background-color: transparent;
+        margin-bottom: 40px;
+    }
+
+    .section-two-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .match-grid-layout {
+        width: 100%;
+    }
+
+    .match-grid-layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*------------------------------------------------------ 
+Making Responsive For Tablet Device Max-Width 768-1180px
+-------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+    .section-two {
+        width: 100%;
+        height: 160vh;
+    }
+
+    .side-bar {
+        flex-direction: row;
+        width: 100%;
+        height: 25vh;
+        justify-content: space-evenly;
+        margin-right: 0;
+        background-color: transparent;
+    }
+
+    .side-bar button {
+        width: 100%;
+        margin: 15px;
+        border-radius: 10px;
+        padding: 15px 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .match {
+        width: 340px;
+        height: 350px;
+    }
+
+    .section-two-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .match-grid-layout {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px 40px;
+    }
+
+    .view-all-button {
+        display: flex;
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        padding: 10px 30px;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+
+    .view-all-button:hover {
+        background-color: #0d233a;
+        color: whitesmoke;
+    }
+
+    .grid {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* -----------------
+Footer Section Style
+--------------------  */
+
+.footer-section {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section h1 {
+    color: aliceblue;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+
+.footer-section h1:hover {
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.footer-section hr {
+    width: 80%;
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+}
+
+.footer-section a {
+    text-decoration: none;
+    font-size: 14px;
+    color: aliceblue;
+    padding-right: 40px;
+}
+
+.links {
+    padding-top: 50px;
+}
+
+li {
+    display: none;
+}
+
+/*------------------------------------------------- 
+Making Responisve For Mobile Device Max-Width 767px
+--------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+    .footer-section {
+        height: 70vh;
+    }
+
+    .footer-section a {
+        padding-bottom: 30px;
+    }
+
+    .links {
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .footer-social-icons {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        text-align: center;
+        height: 20vh;
+        background-color: black;
+    }
+
+    ul li {
+        list-style: none;
+        position: relative;
+        display: block;
+        color: antiquewhite;
+        height: 60px;
+        width: 60px;
+        background: #0d233a;
+        line-height: 60px;
+        border-radius: 50px;
+        margin: 0 15px;
+        cursor: pointer;
+    }
+
+    .fa-brands  {
+        color: blue;
+        padding: 8px;
+        font-size: 40px;
+    }
+    
+    .fa-twitter {
+        color: skyblue;
+    }
+
+    .fa-instagram {
+        color: red;
+    }
+
+    ul {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+/*-------------------------------------------------- 
+Making Responsive For Tablet Device Width 768-1180px 
+----------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+    .footer-section {
+        flex-wrap: wrap;
+        height: 75vh;
+    }
+
+    .footer-section h1 {
+        color: aliceblue;
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding-bottom: 50px;
+    }
+
+    .footer-section a {
+        text-decoration: none;
+        font-size: 14px;
+        color: aliceblue;
+        padding-right: 40px;
+        align-items: center;
+    }
+
+    .links {
+        padding-top: 80px;
+    }
+}
