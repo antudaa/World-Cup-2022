@@ -13,8 +13,8 @@
 }
 
 /*------------------ 
- Header Section Style
- --------------------  */
+  Header Section Style
+  --------------------  */
 .header-section {
     background-color: aliceblue;
     width: 100%;
@@ -68,8 +68,8 @@
 }
 
 /*------------------------------------------ 
- Making Responsive For Mobile Max-Width 767px
- --------------------------------------------  */
+  Making Responsive For Mobile Max-Width 767px
+  --------------------------------------------  */
 
 @media only screen and (max-width: 767px) {
     .header-section {
@@ -109,8 +109,8 @@
 }
 
 /*------------------------------------------ 
- Making Responsive For Tablet Max-Width 768-1180px
- --------------------------------------------  */
+  Making Responsive For Tablet Max-Width 768-1180px
+  --------------------------------------------  */
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
     .header-section {
@@ -141,13 +141,13 @@
 }
 
 /*--------------- 
-Section Two Style
------------------  */
+ Section Two Style
+ -----------------  */
 
 .section-two {
     background-color: aliceblue;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
 }
 
 .side-bar {
@@ -160,11 +160,6 @@ Section Two Style
     background-color: black;
     border-radius: 10px;
     margin-right: 65px;
-}
-
-.side-bar-btn a {
-    text-decoration: none;
-    color: black;
 }
 
 .side-bar button {
@@ -181,7 +176,12 @@ Section Two Style
     color: white;
 }
 
-.blog {
+.side-bar-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.upcomming-match {
     background-color: red;
     color: white;
 }
@@ -193,41 +193,26 @@ Section Two Style
 }
 
 /*--------- 
-Grid Layout
------------  */
+ Grid Layout
+ -----------  */
 
 .match {
     background-color: white;
-    width: 250px;
-    height: 300px;
+    width: 280px;
+    height: 200px;
     box-shadow: 5px 5px 5px gainsboro;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.match button {
-    background-color: white;
-    width: 40%;
-    margin-top: 15px;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 5px 15px;
-}
-
-.match button:hover {
-    box-shadow: 1px 1px 1px gray;
-    background-color: red;
-    color: white;
-
-}
-
-.match h3 {
-    margin-top: 15px;
-    margin-left: 20px;
+.team-flag {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .match-grid-layout {
@@ -236,26 +221,6 @@ Grid Layout
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
     grid-column-gap: 40px;
-}
-
-.time-msg {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.time-msg h5 {
-    font-size: 14px;
-}
-
-.time-msg img {
-    margin-right: 10px;
-    font-size: 10px;
-}
-
-.time-hour {
-    padding-right: 30px;
 }
 
 .view-all-button {
@@ -273,17 +238,17 @@ Grid Layout
 }
 
 /*--------------------------------------------------
- Making Responsive For Mobile Device Max Width 767px
- ---------------------------------------------------  */
+  Making Responsive For Mobile Device Max Width 767px
+  ---------------------------------------------------  */
 
 @media only screen and (max-width: 767px) {
     .match {
-        width: 300px;
-        height: 350px;
+        width: 280px;
+        height: 200px;
     }
 
     .section-two {
-        height: 340vh;
+        height: 250vh;
     }
 
     .side-bar {
@@ -300,6 +265,15 @@ Grid Layout
         width: 100%;
     }
 
+    .team-flag {
+        margin: 15px;
+        gap: 15px;
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
     .match-grid-layout {
         width: 100%;
     }
@@ -313,8 +287,8 @@ Grid Layout
 }
 
 /*------------------------------------------------------ 
-Making Responsive For Tablet Device Max-Width 768-1180px
--------------------------------------------------------- */
+ Making Responsive For Tablet Device Max-Width 768-1180px
+ -------------------------------------------------------- */
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
     .section-two {
@@ -381,8 +355,8 @@ Making Responsive For Tablet Device Max-Width 768-1180px
 }
 
 /* -----------------
-Footer Section Style
---------------------  */
+ Footer Section Style
+ --------------------  */
 
 .footer-section {
     width: 100%;
@@ -431,8 +405,8 @@ li {
 }
 
 /*------------------------------------------------- 
-Making Responisve For Mobile Device Max-Width 767px
---------------------------------------------------- */
+ Making Responisve For Mobile Device Max-Width 767px
+ --------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
     .footer-section {
@@ -494,8 +468,8 @@ Making Responisve For Mobile Device Max-Width 767px
 }
 
 /*-------------------------------------------------- 
-Making Responsive For Tablet Device Width 768-1180px 
-----------------------------------------------------*/
+ Making Responsive For Tablet Device Width 768-1180px 
+ ----------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
     .footer-section {
