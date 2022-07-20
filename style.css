@@ -167,11 +167,12 @@ Section Two Style
     color: black;
 }
 
-.side-bar button {
-    width: 70%;
+.side-bar-btn {
+    cursor: pointer;
+    width: 100%;
     margin: 6px;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 10px 35px;
     font-size: 16px;
     font-weight: bold;
 }
@@ -181,8 +182,13 @@ Section Two Style
     color: white;
 }
 
+.all-groups {
+    padding: 10px 56px;
+}
+
 .blog {
     background-color: red;
+    padding: 10px 80px;
     color: white;
 }
 
@@ -339,6 +345,17 @@ Making Responsive For Tablet Device Max-Width 768-1180px
         font-size: 16px;
         font-weight: bold;
     }
+    
+    .side-bar-btn {
+        padding: 10px 20px;
+    }
+
+    .all-groups {
+        padding: 10px 20px;
+    }
+    /* .blog {
+        padding: 10px 30px;
+    } */
 
     .match {
         width: 340px;
