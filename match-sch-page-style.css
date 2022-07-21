@@ -68,7 +68,7 @@
 }
 
 /*------------------------------------------ 
-  Making Responsive For Mobile Max-Width 767px
+  Making Headder Section Responsive For Mobile Max-Width 767px
   --------------------------------------------  */
 
 @media only screen and (max-width: 767px) {
@@ -109,7 +109,7 @@
 }
 
 /*------------------------------------------ 
-  Making Responsive For Tablet Max-Width 768-1180px
+  Making Headder Section Responsive For Tablet Max-Width 768-1180px
   --------------------------------------------  */
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
@@ -162,11 +162,17 @@
     margin-right: 65px;
 }
 
-.side-bar button {
-    width: 70%;
+.side-bar-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.side-bar-btn {
+    cursor: pointer;
+    width: 80%;
     margin: 6px;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 10px 35px;
     font-size: 16px;
     font-weight: bold;
 }
@@ -174,11 +180,6 @@
 .side-bar button:hover {
     background-color: red;
     color: white;
-}
-
-.side-bar-btn a {
-    text-decoration: none;
-    color: black;
 }
 
 .upcomming-match {
@@ -193,7 +194,7 @@
 }
 
 /*--------- 
- Grid Layout
+ Section Two Article Grid Layout
  -----------  */
 
 .match {
@@ -238,7 +239,7 @@
 }
 
 /*--------------------------------------------------
-  Making Responsive For Mobile Device Max Width 767px
+  Making Section Two Responsive For Mobile Device Max Width 767px
   ---------------------------------------------------  */
 
 @media only screen and (max-width: 767px) {
@@ -287,7 +288,7 @@
 }
 
 /*------------------------------------------------------ 
- Making Responsive For Tablet Device Max-Width 768-1180px
+ Making Section Two Responsive For Tablet Device Max-Width 768-1180px
  -------------------------------------------------------- */
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
@@ -405,7 +406,7 @@ li {
 }
 
 /*------------------------------------------------- 
- Making Responisve For Mobile Device Max-Width 767px
+ Making Footer Section Responisve For Mobile Device Max-Width 767px
  --------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
@@ -468,7 +469,7 @@ li {
 }
 
 /*-------------------------------------------------- 
- Making Responsive For Tablet Device Width 768-1180px 
+ Making Footer Section Responsive For Tablet Device Width 768-1180px 
  ----------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
